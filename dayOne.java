@@ -10,7 +10,7 @@ public class Main {
         int[] mem = new int[2];
         mem[0] = s.nextInt();
         mem[1] = s.nextInt();
-        int i = 0, x = 0;
+        int x = 0;
         if(mem[0] < mem[1]) x++;
         while (s.hasNextInt()){
             mem[0] = mem[1];
